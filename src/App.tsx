@@ -9,7 +9,7 @@ function App() {
   const [array, dispatch] = useReducer(boardReducer, make2DArray(8, 8, BoardState.INACTIVE));
   return (
     <div style={{marginTop: "10vh"}}>
-      <h2 style={{textAlign: "center"}}>KNIGHT POSITION</h2>
+      <h2 style={{textAlign: "center"}}>KNIGHT POSITIONS</h2>
       {
         array.map((item, i) =>
           <div style={{display: "flex", flexDirection: "row", justifyContent: "center"}}>
