@@ -2,9 +2,7 @@ import React, {useReducer} from 'react';
 import './App.css';
 import backgroundFromState from './functions/backgroundFromState';
 import boardReducer from './functions/boardReducer';
-import computeKnightPositions from './functions/computeKnightPositions';
 import make2DArray from './functions/make2dArray';
-import BoardAction from './types/BoardAction';
 import BoardState from './types/BoardState';
 
 function App() {
