@@ -1,5 +1,5 @@
 # KNIGHT POSITIONS
 
-![Knight](./Knight.png)
+![Knights](./Knights.png)
 
 Just a sample react project
